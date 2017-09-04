@@ -1,0 +1,22 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+table td{
+    border: 1px solid black;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+table tr > td:first-child{
+    width: 80px;
+}
+
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-top: 5px;
+    width: 100%;
+}
