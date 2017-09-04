@@ -11,14 +11,16 @@
 </head>
 
 <body>
-    <input type="search" name="event_search" id="event_search">
-    <input type="checkbox" name="include_event_name" id="include_event_name">
-    <label for="include_event_name">企画名</label>
-    <input type="checkbox" name="include_group_name" id="include_group_name">
-    <label for="include_group_name">企画団体</label>
-    <input type="checkbox" name="include_event_description" id="include_event_description">
-    <label for="include_event_description">企画紹介</label>
-    <button id="search">検索</button>
+    <form action="" onsubmit="return false;">
+        <input type="search" name="event_search" id="event_search"><br>
+        <input type="checkbox" name="include_event_name" id="include_event_name">
+        <label for="include_event_name">企画名</label> <br>
+        <input type="checkbox" name="include_group_name" id="include_group_name">
+        <label for="include_group_name">企画団体</label> <br>
+        <input type="checkbox" name="include_event_description" id="include_event_description">
+        <label for="include_event_description">企画紹介</label><br>
+        <button id="search">検索</button>
+    </form>
     <div id="result">
     </div>
 </body>
